@@ -10,7 +10,7 @@
 <body>
     <div class="form-container">
         <h1>Compra de Entradas</h1>
-        <form id="ticketForm" action="https://formspree.io/f/meookrzr" method="POST" enctype="multipart/form-data">
+        <form id="ticketForm" action="https://formspree.io/f/meookrzr" method="POST" >
             <label for="nombre">Nombre y Apellido:</label>
             <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
 
@@ -20,8 +20,6 @@
             <label for="cantidad">Cantidad de Entradas:</label>
             <input type="number" id="cantidad" name="cantidad" placeholder="Ej: 2" min="1" required>
 
-            <label for="comprobante">Comprobante de Pago (PDF o Foto):</label>
-            <input type="file" id="comprobante" name="comprobante" accept=".pdf, .jpg, .jpeg, .png" required>
 
             <button type="submit">Enviar</button>
         </form>
