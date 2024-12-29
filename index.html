@@ -10,15 +10,15 @@
 <body>
     <div class="form-container">
         <h1>Compra de Entradas</h1>
-        <form id="ticketForm" action="https://formspree.io/f/meookrzr" method="POST" >
+        <form id="ticketForm" action="https://formspree.io/f/meookrzr" method="POST" enctype="multipart/form-data">
             <label for="nombre">Nombre y Apellido:</label>
-            <input type="text" id="nombre" name="Nombre y Apellido" placeholder="Ingresa tu nombre completo" required>
+            <input type="text" id="nombre" name="name" placeholder="Ingresa tu nombre completo" required>
 
             <label for="email">Correo Electrónico:</label>
             <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
 
             <label for="cantidad">Cantidad de Entradas:</label>
-            <input type="number" id="cantidad" name="Cantidad de Entradas" placeholder="Ej: 2" min="1" required>
+            <input type="number" id="cantidad" name="cantidad" placeholder="Ej: 2" min="1" required>
 
 
             <button type="submit">Enviar</button>
